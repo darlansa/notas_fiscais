@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "sistema-notas"
+version = "0.1.0"
+description = ""
+authors = ["Darlan <darlansaa@gmail.com"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.36.0"
+pandas = "^2.2.2"
+duckdb = "^1.0.0"
+sqlalchemy = "^2.0.31"
+psycopg2-binary = "^2.9.9"
+python-dotenv = "^1.0.1"
+bcrypt = "^4.2.0"
+requests = "^2.32.3"
+parsel = "^1.9.1"
+altair = {extras = ["all"], version = "^5.4.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
